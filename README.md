@@ -32,31 +32,16 @@ Continuous updates of marker positions and circles in real-time.
 **Installation**
 
 Clone the repository:
-
-git clone https://github.com/your-username/ColorMarkerTracker.git
 Navigate to the project directory:
-
 cd ColorMarkerTracker
 Compile the program using a C++ compiler and link with OpenCV libraries:
 
-css
-Copy code
-g++ main.cpp -o ColorMarkerTracker -lopencv_core -lopencv_highgui -lopencv_imgproc -lopencv_objdetect
-Run the program:
-
-Copy code
-./ColorMarkerTracker
-Usage
+**Usage**
 Run the program, and it will access the video feed from the connected camera.
-
 The program will detect yellow and pink markers in the live video feed.
-
 As you move the yellow and pink markers within the camera's view, the program will track their positions and draw circles around them using their respective colors.
-
 The drawn circles will be updated in real-time based on the markers' movements.
-
 Enjoy the interactive drawing experience using the yellow and pink markers.
-
 Press the 'Esc' key to exit the program.
 
 License
